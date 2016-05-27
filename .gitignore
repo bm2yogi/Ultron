@@ -1,0 +1,10 @@
+[Bb]in
+[Oo]bj
+packages
+*.suo
+*.user
+
+*ncrunch*
+*resharper*
+
+node_modules
