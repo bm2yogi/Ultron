@@ -5,6 +5,15 @@ VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ultron", "Ultron\Ultron.csproj", "{EC51D463-4B54-4481-9005-5D3D4A327D97}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{173F4A0D-16E4-4415-B43C-BC51113657B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests.Unit", "Tests.Unit\Tests.Unit.csproj", "{DDC60878-D427-4890-99F9-B8242F832732}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{F952E325-DB34-406D-AAF8-4C1F216C434B}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\packages.config = .nuget\packages.config
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,8 +24,15 @@ Global
 		{EC51D463-4B54-4481-9005-5D3D4A327D97}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EC51D463-4B54-4481-9005-5D3D4A327D97}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EC51D463-4B54-4481-9005-5D3D4A327D97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDC60878-D427-4890-99F9-B8242F832732}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDC60878-D427-4890-99F9-B8242F832732}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDC60878-D427-4890-99F9-B8242F832732}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDC60878-D427-4890-99F9-B8242F832732}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DDC60878-D427-4890-99F9-B8242F832732} = {173F4A0D-16E4-4415-B43C-BC51113657B3}
 	EndGlobalSection
 EndGlobal

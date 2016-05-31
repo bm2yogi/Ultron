@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<test-run id="2" testcasecount="1" result="Passed" total="1" passed="0" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.2.1.0" clr-version="4.0.30319.42000" start-time="2016-05-31 18:49:09Z" end-time="2016-05-31 18:49:09Z" duration="0.586139">
+  <command-line><![CDATA["C:\Users\Michael Ibarra\Projects\CSharp\Ultron\packages\NUnit.ConsoleRunner.3.2.1\tools\nunit3-console.exe"  .\Tests.Unit\bin\Debug\Tests.Unit.dll]]></command-line>
+  <test-suite type="Assembly" id="1-1002" name="C:\Users\Michael Ibarra\Projects\CSharp\Ultron\Tests.Unit\bin\Debug\Tests.Unit.dll" fullname="C:\Users\Michael Ibarra\Projects\CSharp\Ultron\Tests.Unit\bin\Debug\Tests.Unit.dll" runstate="Runnable" testcasecount="1" result="Passed" duration="0.544021" total="1" passed="0" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="_PID" value="7900" />
+      <property name="_APPDOMAIN" value="test-domain-" />
+    </properties>
+    <test-suite type="Namespace" id="1-1003" name="Tests" fullname="Tests" runstate="Runnable" testcasecount="1" result="Passed" duration="0.522008" total="1" passed="0" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <test-suite type="Namespace" id="1-1004" name="Unit" fullname="Tests.Unit" runstate="Runnable" testcasecount="1" result="Passed" duration="0.520929" total="1" passed="0" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <test-suite type="Namespace" id="1-1005" name="HomePage" fullname="Tests.Unit.HomePage" runstate="Runnable" testcasecount="1" result="Passed" duration="0.520020" total="1" passed="0" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <test-suite type="TestFixture" id="1-1000" name="VisitingTheHomePage" fullname="Tests.Unit.HomePage.VisitingTheHomePage" runstate="Runnable" testcasecount="1" result="Passed" duration="0.517662" total="1" passed="0" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <test-case id="1-1001" name="It_should_return_a_view" fullname="Tests.Unit.HomePage.VisitingTheHomePage.It_should_return_a_view" runstate="Runnable" result="Passed" duration="0.504420" asserts="1" />
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>
